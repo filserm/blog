@@ -49,5 +49,4 @@ cp -r /home/mike/blog/content/ /mnt/nas/Blog
         docker exec -i blog-db-1 mysql -u root --password=$MYSQL_ROOT_PASSWORD ghost < backup_ghost.sql
         docker exec -i blog-db-1 mysql -u root --password=$MYSQL_ROOT_PASSWORD mysql < backup_mysql.sql
     ```
-
-
+5) run ```docker-compose up -d ```
