@@ -37,6 +37,7 @@ cp -r /home/mike/blog/content/ /mnt/nas/Blog
 
 # Restore
 1) Run docker-compose as in [Setup](#setup)
+    <br>**important** the MYSQL_ROOT_PASSWORD needs to be the same as from the original MYSQL instance.
 2) Drop volume ```docker volume rm blog_mysql-data```
 3) Copy the backup files from the NAS to the current directory
    ```
